@@ -30,6 +30,7 @@ const Register = () => {
     const handlePasswordBlur = e => {
         setPassword(e.target.value)
     }
+
     const handleConfirmPasswordBlur = e => {
         setconfirmPassword(e.target.value)
     }
@@ -48,6 +49,11 @@ const Register = () => {
                 <input onBlur={handleEmailBlur} type="email" name="email" id="" placeholder='Your Address' required />
                 <input onBlur={handlePasswordBlur} type="password" name="password" id="" placeholder='Password' required />
                 <input onBlur={handleConfirmPasswordBlur} type="password" name="password" id="" placeholder='Confirm Password' required />
+
+                <input
+                    style={{ height: '40px' }} className='btn btn-primary w-50 mx-auto d-block text-white '
+                    type="submit"
+                    value="Register" />
 
             </form>
             <p>Already have an account? <Link to={'/login'} className='text-primary text-decoration-none' >Please Login</Link></p>
