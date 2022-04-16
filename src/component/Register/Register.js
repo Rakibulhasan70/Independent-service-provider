@@ -50,7 +50,7 @@ const Register = () => {
             <h2 className='mt-3 mb-3 text-primary' style={{ textAlign: 'center' }}>Please Register</h2>
             <form onSubmit={handleFormSubmit}>
                 <input type="text" name="text" id="" placeholder='Your name' />
-                <input onBlur={handleEmailBlur} type="email" name="email" id="" placeholder='Your Address' required />
+                <input onBlur={handleEmailBlur} type="email" name="email" id="" placeholder='Your Email' required />
                 <input onBlur={handlePasswordBlur} type="password" name="password" id="" placeholder='Password' required />
                 <input onBlur={handleConfirmPasswordBlur} type="password" name="password" id="" placeholder='Confirm Password' required />
                 <p><small>{error}</small></p>
