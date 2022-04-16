@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import Social from '../Social/Social';
 
@@ -9,14 +9,25 @@ const Login = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const navigate = useNavigate()
+    const [error, setError] = useState('')
+    const location = useLocation()
 
 
     const [
         signInWithEmailAndPassword,
         user,
         loading,
-        error,
     ] = useSignInWithEmailAndPassword(auth);
+
+    const from = location.state?.from?.pathname || "/";
+
+
+
+
+    if (user) {
+        navigate(from, { replace: true });
+    }
+
 
     if (user) {
         navigate('/home')
@@ -33,6 +44,10 @@ const Login = () => {
 
     const handleFormSubmit = e => {
         e.preventDefault()
+        if (!password) {
+            setError('error')
+            return
+        }
         signInWithEmailAndPassword(email, password)
 
     }
@@ -47,12 +62,13 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control onBlur={handlePasswordBlur} type="password" placeholder="Password" required />
                 </Form.Group>
+                <p><small>{error}</small></p>
                 <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
                     Login
                 </Button>
             </Form>
 
-            <p>New to Genius Car? <Link to={'/register'} className='text-primary text-decoration-none'>Please Register</Link></p>
+            <p>New to My Website? <Link to={'/register'} className='text-primary text-decoration-none'>Please Register</Link></p>
 
             <p>Forget Password? <button className=' btn btn-link text-primary text-decoration-none' >Reset Password</button></p>
             <Social></Social>
