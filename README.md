@@ -6,6 +6,24 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### The details of my project   
+
+- This project is full of personal website.
+- There are some services and page.
+- In this project available the login and register form.
+- Someone get more inforamtion and services after login.
+- There is Google login authentication.
+- If you want to know more information about me, you can go about page.
+- In this website i am answering 3 basic qus. Which is very important.
+
+### List of technologies which i am using in this project
+
+- Firebase
+- React Firebase Hooks
+- React Router
+- React Bootstarp 
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
