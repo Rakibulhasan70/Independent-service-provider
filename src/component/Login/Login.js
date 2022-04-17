@@ -44,10 +44,6 @@ const Login = () => {
 
     const handleFormSubmit = e => {
         e.preventDefault()
-        if (!password) {
-            setError('error')
-            return
-        }
         signInWithEmailAndPassword(email, password)
 
     }

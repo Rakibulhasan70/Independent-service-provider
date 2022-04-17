@@ -17,7 +17,7 @@ const Register = () => {
         createUserWithEmailAndPassword,
         user,
         loading,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
     if (user) {
         navigate('/home')
@@ -38,7 +38,7 @@ const Register = () => {
     const handleFormSubmit = e => {
         e.preventDefault()
         if (password !== confirmPassword) {
-            setError('your password is not correct')
+            setError('your password is incorrect')
             return
         }
         createUserWithEmailAndPassword(email, password)
@@ -53,7 +53,7 @@ const Register = () => {
                 <input onBlur={handleEmailBlur} type="email" name="email" id="" placeholder='Your Email' required />
                 <input onBlur={handlePasswordBlur} type="password" name="password" id="" placeholder='Password' required />
                 <input onBlur={handleConfirmPasswordBlur} type="password" name="password" id="" placeholder='Confirm Password' required />
-                <p><small>{error}</small></p>
+                <p><small className='text-danger'>{error}</small></p>
 
                 <input
                     style={{ height: '40px' }} className='btn btn-primary w-50 mx-auto d-block text-white '
