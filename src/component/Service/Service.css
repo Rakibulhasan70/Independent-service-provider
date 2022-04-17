@@ -7,7 +7,7 @@
 .service-btn {
     border: 1px solid lightgray;
     border-radius: 5px;
-    background-color: darkgray;
+    background-color: lightskyblue;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -17,4 +17,6 @@
 .service-details img {
     width: 100%;
     height: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
 }

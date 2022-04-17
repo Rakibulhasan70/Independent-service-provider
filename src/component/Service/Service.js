@@ -13,9 +13,11 @@ const Service = (props) => {
     return (
         <div className='service-details'>
             <img src={img} alt="" />
-            <h4>{name}</h4>
-            <h5>price:${price}</h5>
-            <p><small>{description}</small></p> <button className='service-btn ' onClick={() => handleService(id)}>Details</button>
+            <div className='ps-2 mb-2'>
+                <h4 className='mt-3 '>{name}</h4>
+                <h5>price:${price}</h5>
+                <p><small>{description}</small></p> <button className='service-btn  ' onClick={() => handleService(id)}>Details</button>
+            </div>
         </div>
     );
 };
