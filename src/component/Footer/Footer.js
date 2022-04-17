@@ -7,7 +7,7 @@ const Footer = () => {
     const today = new Date()
     const year = today.getFullYear()
     return (
-        <div className='footer'>
+        <div className='footer container'>
             <div>
                 <p className='text-center  '><small>Copyright @ {year}</small></p>
             </div>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <img src={google} alt="" />
                 <img height='20' src={facebook} alt="" />
                 <img height='25' src={github} alt="" />
-                <p className='mt-1'>rakibulhasansohag5@gmail.com</p>
+                <p className='mt-1'>RHS@gmail.com</p>
                 <p className='mt-0'>01790139036</p>
             </div>
         </div>

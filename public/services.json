@@ -17,28 +17,28 @@
         "id": 3,
         "name": "Mission Six Pack",
         "price": "450",
-        "description": "Yes! You can do it",
+        "description": " There are so many benefites",
         "img": "https://i.ibb.co/JpVLbN7/six-pack.png "
     },
     {
         "id": 4,
         "name": "Special Session",
         "price": "380",
-        "description": "There are extra benefites",
+        "description": "Yes! You can do it",
         "img": " https://i.ibb.co/1zXyX9k/special-gym.png"
     },
     {
         "id": 5,
         "name": "Legs and Abs",
         "price": "100",
-        "description": "Are you do it ?",
+        "description": "Are you interested?",
         "img": " https://i.ibb.co/PhKzP4z/legs-abs.png"
     },
     {
         "id": 6,
         "name": "Full Body ",
         "price": "300",
-        "description": "you should to join it",
+        "description": "you should join this",
         "img": "https://i.ibb.co/N1jyWy1/full-body.png "
     }
 ]

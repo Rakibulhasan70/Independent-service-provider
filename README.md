@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with my fancy project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome To My Gym Center
 
-## Available Scripts
-
-In the project directory, you can run:
+## Got to my project link and enjoy it
+This is my project Live site link [https://assignment-10-eecce.web.app/](https://assignment-10-eecce.web.app/) to view in your browser
 
 ### The details of my project   
 
