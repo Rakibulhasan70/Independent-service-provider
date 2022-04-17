@@ -12,9 +12,10 @@ const Service = (props) => {
 
     return (
         <div className='service-details'>
-            <h2>{name}</h2>
-            <h4>price:{price}</h4>
-            <button onClick={() => handleService(id)}>Details</button>
+            <img src={img} alt="" />
+            <h4>{name}</h4>
+            <h5>price:${price}</h5>
+            <p><small>{description}</small></p> <button className='service-btn ' onClick={() => handleService(id)}>Details</button>
         </div>
     );
 };

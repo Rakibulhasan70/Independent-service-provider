@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "ENGINE DIAGNOSTIC",
+        "name": "Morning session",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": ""
+        "description": "Stay Fit",
+        "img": "https://i.ibb.co/Lk8MdDk/morning.png"
     },
     {
         "id": 2,
-        "name": "WHEEL ALIGNMENT",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": " "
+        "name": "Evening session",
+        "price": "300",
+        "description": "Work Hard",
+        "img": " https://i.ibb.co/vhYtv5h/evening.png"
     },
     {
         "id": 3,
-        "name": "OIL CHANGING",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": " "
+        "name": "Mission Six Pack",
+        "price": "450",
+        "description": "Yes! You can do it",
+        "img": "https://i.ibb.co/JpVLbN7/six-pack.png "
     },
     {
         "id": 4,
-        "name": "BRAKE REPARING",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": " "
+        "name": "Special Session",
+        "price": "380",
+        "description": "There are extra benefites",
+        "img": " https://i.ibb.co/1zXyX9k/special-gym.png"
     },
     {
         "id": 5,
-        "name": "WASH AND GLASSING",
+        "name": "Legs and Abs",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": " "
+        "description": "Are you do it ?",
+        "img": " https://i.ibb.co/PhKzP4z/legs-abs.png"
     },
     {
         "id": 6,
-        "name": "COMPLETE ANALYSIS",
+        "name": "Full Body ",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": " "
+        "description": "you should to join it",
+        "img": "https://i.ibb.co/N1jyWy1/full-body.png "
     }
 ]

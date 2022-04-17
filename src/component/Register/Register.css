@@ -10,6 +10,15 @@
 }
 
 .register-form {
+    display: flex;
+    justify-content: space-around;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
+}
+
+.form-img img {
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 15px;
 }

@@ -22,6 +22,7 @@ In the project directory, you can run:
 - React Firebase Hooks
 - React Router
 - React Bootstarp 
+- React Toastify
 
 
 ### `npm start`

@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" sticky='top' bg="primary" variant="dark">
+            <Navbar className='navabr' collapseOnSelect expand="lg" sticky='top' variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to='/home'><img className='img' src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
