@@ -42,7 +42,7 @@ const Footer = () => {
                 <img src={google} alt="" />
                 <img height='20' src={facebook} alt="" />
                 <img height='25' src={github} alt="" />
-                <p className='mt-1'>RHS@gmail.com</p>
+                <p className='mt-1'>R@gmail.com</p>
                 <p className='mt-0'>01790139036</p>
             </div>
         </div>
