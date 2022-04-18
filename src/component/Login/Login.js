@@ -85,7 +85,7 @@ const Login = () => {
                 <img src={login} alt="" />
             </div>
             <div>
-                <h2 className='text-primary text-center mt-5 mb-4'>Please Login</h2>
+                <h2 style={{ color: 'purple' }} className=' text-center mt-5 mb-4'>Please Login</h2>
                 <Form onSubmit={handleFormSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Control onBlur={handleEmailBlur} type="email" placeholder="Enter email" required />
@@ -103,7 +103,7 @@ const Login = () => {
 
                 <p>New to My Website? <Link to={'/register'} className='text-primary text-decoration-none'>Please Register</Link></p>
 
-                <p>Forget Password? <button className=' btn btn-link text-primary text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
+                <p>Forget Password? <button className='ps-0 btn btn-link text-primary text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
                 <Social></Social>
                 <ToastContainer />
             </div>

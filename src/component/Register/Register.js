@@ -65,7 +65,7 @@ const Register = () => {
                 <img className='img-fluid' src={register} alt="" />
             </div>
             <div>
-                <h2 className='mt-3 mb-3 text-primary text-center' >Please Register</h2>
+                <h2 style={{ color: 'purple' }} className='mt-3 mb-3  text-center' >Please Register</h2>
                 <form onSubmit={handleFormSubmit}>
                     <input type="text" name="text" id="" placeholder='Your name' />
                     <input onBlur={handleEmailBlur} type="email" name="email" id="" placeholder='Your Email' required />

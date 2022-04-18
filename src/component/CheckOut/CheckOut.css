@@ -1,0 +1,14 @@
+.checkout-form input:not([type=submit]) {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    width: 50%;
+
+}
+
+.checkout-form {
+    color: darkblue;
+}
