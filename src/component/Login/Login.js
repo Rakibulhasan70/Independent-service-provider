@@ -33,7 +33,7 @@ const Login = () => {
     );
 
     if (loading) {
-        <Loading></Loading>
+        return <Loading></Loading>
     }
 
     const resetPassword = async () => {

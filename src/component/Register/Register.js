@@ -30,7 +30,7 @@ const Register = () => {
     }
 
     if (loading) {
-        <Loading></Loading>
+        return <Loading></Loading>
     }
 
     if (user) {

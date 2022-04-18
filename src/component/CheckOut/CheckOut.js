@@ -5,7 +5,6 @@ import { toast, ToastContainer } from 'react-toastify';
 import auth from '../../firebase.init';
 import 'react-toastify/dist/ReactToastify.css';
 import './CheckOut.css'
-import { sendPasswordResetEmail } from 'firebase/auth';
 
 
 const CheckOut = () => {
