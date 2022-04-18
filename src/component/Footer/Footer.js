@@ -3,13 +3,19 @@ import './Footer.css'
 import google from '../../images/social/google.png'
 import facebook from '../../images/social/facebook.png'
 import github from '../../images/social/github.png'
+
 const Footer = () => {
     const today = new Date()
     const year = today.getFullYear()
+
+
+
     return (
         <div className='footer '>
             <div>
-                <p className='text-center  '><small>Copyright @ {year}</small></p>
+                <p className='text-center  mb-0'><small>Copyright @ {year}</small></p>
+                <p className='mb-0'><small>All Rights Reserved</small></p>
+                <p className='mt-0'> By Sohag Hasan</p>
             </div>
             <div>
                 <h5>Information</h5>
