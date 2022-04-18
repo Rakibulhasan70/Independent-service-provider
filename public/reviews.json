@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Morning session",
+        "price": "300",
+        "description": "Stay Fit",
+        "img": "https://i.ibb.co/Lk8MdDk/morning.png"
+    },
+    {
+        "id": 1,
+        "name": "Morning session",
+        "price": "300",
+        "description": "Stay Fit",
+        "img": "https://i.ibb.co/Lk8MdDk/morning.png"
+    },
+    {
+        "id": 1,
+        "name": "Morning session",
+        "price": "300",
+        "description": "Stay Fit",
+        "img": "https://i.ibb.co/Lk8MdDk/morning.png"
+    }
+]
