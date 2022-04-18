@@ -11,17 +11,19 @@ const Reviews = () => {
     }, [])
 
     return (
-        <div id='reviews '>
-            <h2 style={{ color: 'purple' }} className='mt-5 mb-5 text-center '>Customer Feedback</h2>
-            <div className='review container'>
-                {
-                    reviews.map(review => <Review
-                        key={review.id}
-                        review={review}
-                    >
+        <div id='reviews'>
+            <div>
+                <h2 style={{ color: 'purple' }} className='mt-5 mb-5 text-center title'>Customer Feedback</h2>
+                <div className='review container'>
+                    {
+                        reviews.map(review => <Review
+                            key={review.id}
+                            review={review}
+                        >
 
-                    </Review>)
-                }
+                        </Review>)
+                    }
+                </div>
             </div>
         </div>
     );

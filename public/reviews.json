@@ -1,23 +1,20 @@
 [
     {
         "id": 1,
-        "name": "Morning session",
-        "price": "300",
-        "description": "Stay Fit",
-        "img": "https://i.ibb.co/Lk8MdDk/morning.png"
+        "name": "Eoin Morgan",
+        "description": "One of the best gym trainer ever i saw.He is very careful about our health,he guid me as like his brother.Now i am very Happpy for his consiouness.",
+        "img": "https://i.ibb.co/NCR6Hkn/body1.png"
     },
     {
         "id": 1,
-        "name": "Morning session",
-        "price": "300",
-        "description": "Stay Fit",
-        "img": "https://i.ibb.co/Lk8MdDk/morning.png"
+        "name": "Alex Halsa",
+        "description": "Before 8 monthes i was 97kg.I was very worried about my health.Then i came to trainer.I was surprised.He is an extra ordinary trainer.Now i am fully fit and healthy.Thanks Mark",
+        "img": "https://i.ibb.co/WDTg1yj/body2.png"
     },
     {
         "id": 1,
-        "name": "Morning session",
-        "price": "300",
-        "description": "Stay Fit",
-        "img": "https://i.ibb.co/Lk8MdDk/morning.png"
+        "name": "Angelina Jolie",
+        "description": "Mark is seriously amazing.I need to trasformation  my body for next project.But i did not decided who is the best for this work.My friend told me MARK is best for this work.I refer everyone go to Mark and keep fit.",
+        "img": "https://i.ibb.co/Sc2LRmy/body3.png"
     }
 ]
