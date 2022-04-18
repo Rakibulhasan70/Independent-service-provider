@@ -8,6 +8,7 @@ import auth from '../../firebase.init';
 import Loading from '../Loading/Loading';
 import login from '../../images/login.png'
 import Social from '../Social/Social';
+import './Login.css'
 
 const Login = () => {
     const [email, setEmail] = useState('')
@@ -79,8 +80,8 @@ const Login = () => {
 
     }
     return (
-        <div className='register-form container  mx-auto'>
-            <div className='form-img mt-5 '>
+        <div className='register-form container'>
+            <div className='login-img mt-5 '>
                 <img src={login} alt="" />
             </div>
             <div>

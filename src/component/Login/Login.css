@@ -1,0 +1,13 @@
+.login-img img {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width:576px) {
+    .login-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
